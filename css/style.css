@@ -1172,6 +1172,9 @@ p.address-subtitle-text {
     .section-five {
         display: none;
     }
+    .header-nav {
+        margin-left: 11px;
+    }
     .header-nav-link {
         font-size: 0.7rem;
     }
