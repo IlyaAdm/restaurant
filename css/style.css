@@ -1172,6 +1172,9 @@ p.address-subtitle-text {
     .section-five {
         display: none;
     }
+    .header-nav-link {
+        font-size: 0.7rem;
+    }
     .okroshka1-title {
         font-size: 2rem;
     }
