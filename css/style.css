@@ -1162,7 +1162,11 @@ p.address-subtitle-text {
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 460px)
+ {
+    .container{
+        padding: 0;
+    }
     .section-two {
         height: 500px;
     }
@@ -1177,17 +1181,42 @@ p.address-subtitle-text {
         margin-left: 8px;
 
     }
-    .okroshka1-title {
+    .okroshka-main {
+        left: 10px;
+    }
+    .okroshka-title {
         font-size: 2rem;
+    }
+    .okroshka-text {
+        margin-bottom: 30px;
     }
     .okroshka-price {
         font-size: 1.5rem;
     }
+    .okroshka-weight {
+        margin-bottom: 6px;
+    }
+    .menu-title {
+        margin-left: 10px;
+    }
+    .menu-title-text {
+        margin: 0 5px 0 10px;
+    }
+
+    .okroshka2-main {
+        left: 10px;
+    }    
     .okroshka2-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+    .okroshka2-text {
+        margin-bottom: 30px;
     }
     .okroshka2-price {
         font-size: 1.5rem;
+    }
+    .okroshka2-weight {
+        margin-bottom: 6px;
     }
 
     .map-address {
@@ -1197,12 +1226,20 @@ p.address-subtitle-text {
 
 .map-title h1 {
     font-size: 2rem;
+    margin-left: 10px;
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
-.okroshka1-title {
-    font-size: 1.5rem;
+.map-address {
+    height: 200px;
 }
-.okroshka2-title {
-    font-size: 1.5rem;
+.press-title h1 {
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.news {
+    margin: 0 5px 0 10px;
 }
 
 .fb {
@@ -1215,5 +1252,13 @@ p.address-subtitle-text {
 .gw {
     position: absolute;
     left: 203px;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+.form-group {
+    width: 300px;
+
 }
 }
